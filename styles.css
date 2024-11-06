@@ -1,0 +1,71 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Стандартный шрифт, если нет шрифта Star Wars */
+    margin: 0;
+    padding: 20px;
+    background-color: #000000; /* Чёрный фон */
+    color: #ffffff; /* Белый текст */
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8); /* Полупрозрачный чёрный фон */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.9); /* Золотистая тень */
+}
+
+h1, h2 {
+    color: #FFD700; /* Золотистый цвет */
+    text-align: center;
+    text-shadow: 2px 2px 5px #000; /* Тень для заголовков */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #00BFFF; /* Небесно-синий */
+    font-weight: bold; /* Жирный текст */
+    transition: color 0.2s;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #FFD700; /* Золотистый цвет при наведении */
+}
+
+button {
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #555; /* Серый фон */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #777; /* Более светлый серый при наведении */
+}
+
+/* Убираем анимацию для открывающего состояния */
+#openingCrawl {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    white-space: pre-wrap;
+    overflow-y: auto;
+    max-height: 60vh; /* Максимальная высота для прокрутки */
+    margin-bottom: 20px;
+}
+
